@@ -1,0 +1,143 @@
+body {
+  background-color: #999999;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.categories {
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.all-elements {
+  display: none;
+}
+
+.item {
+  margin-top: 15px;
+}
+
+.active {
+  background-color: aqua !important;
+}
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.new-item-button {
+  position: absolute;
+  background-color: #FFF;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid #ac05bb;
+  cursor: pointer;
+}
+
+.new-item-button:hover {
+  background-color: #ac05bb;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  color: #FFF;
+}
+
+.new-item-button:active {
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+.categories.minus {
+  background-color: red;
+}
+
+.categories.plus {
+  background-color: blue;
+}
+
+.button {
+  position: relative;
+  color: black;
+  background-color: #4CAF50;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-item {
+  width: 200px !important;
+}
+
+.btn-item:hover {
+  color: white;
+}
+
+.btn-minus {
+  border: 2px solid #4CAF50 !important;
+}
+
+.btn-minus:hover {
+  background-color: #b10723;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+}
+
+.btn-plus {
+  border: 2px solid #4CAF50 !important;
+}
+
+.btn-plus:hover {
+  background-color: #4CAF50;
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
+  color: white;
+}
+
+.btn-item {
+  width: auto;
+  height: 80px;
+  text-transform: uppercase;
+  margin: 25px 25px;
+}
+
+.hide-content {
+  position: absolute;
+  max-width: 0;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: 2s  max-width;
+  transition: 2s  max-width;
+  -webkit-transition: 2s  max-height;
+  transition: 2s  max-height;
+}
+
+.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+}
+/*# sourceMappingURL=categories.css.map */

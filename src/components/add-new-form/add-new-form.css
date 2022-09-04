@@ -1,0 +1,18 @@
+form {
+    font-size: 16px;
+    padding: 0px;
+}
+input {
+    outline: none;
+}
+h1 {
+    color: #FFF;
+}
+.form {
+    margin: 10px auto;
+    width: 800px;
+    text-align: center;
+}
+.input-item {
+    width: 30%;
+}
