@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pet-project-finance/static/css/main.5a6ed895.css",
+    "main.js": "/pet-project-finance/static/js/main.db3c7eb9.js",
+    "index.html": "/pet-project-finance/index.html",
+    "main.5a6ed895.css.map": "/pet-project-finance/static/css/main.5a6ed895.css.map",
+    "main.db3c7eb9.js.map": "/pet-project-finance/static/js/main.db3c7eb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a6ed895.css",
+    "static/js/main.db3c7eb9.js"
+  ]
+}
