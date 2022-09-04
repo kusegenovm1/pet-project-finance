@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Учет личных финансов
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Запуск приложения
 
-In the project directory, you can run:
+Чтобы запустить приложение, необходимо перейти по ссылке: [Finance app](https://kusegenovm1.github.io/pet-project-finance).
 
 ### `npm start`
 
